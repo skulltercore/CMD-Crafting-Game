@@ -1,8 +1,5 @@
 //5COSC001W - CW - Joseph Calabro
 
-//If you see errors everywhere - Right Click On "Crafting Game CW" in the Solution Explorer, select "Retarget Projects" and click "OK".
-//After doing this the code will run, the errors will still be displayed though. To get rid of them fully close and open visual studio.
-
 #include <iostream>
 #include <cstdio>
 #include <string>
