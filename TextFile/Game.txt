@@ -1,0 +1,341 @@
+MES
+||You are currently in your workshop. In front of you lies all your tinkering tools ready for crafting.||
+
+WIN ANCIENT-GEAR-GOLEM
+
+WIN-MES
+You've done it! You've crafted the ulimate ancient warrior! The Anceint Gear Golem!
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME SMALL-GEAR
+
+AMOUNT 10
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME GREAT-GEAR
+
+RECIPE SMALL-GEAR SMALL-GEAR
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME CHARCOAL
+
+UNIT Kilogram
+
+AMOUNT 5
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME SALTPETER
+
+UNIT Kilogram
+
+AMOUNT 5
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME GUN-POWDER
+
+UNIT Kilogram
+
+RECIPE CHARCOAL SALTPETER
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME CAST-IRON
+
+UNIT Kilogram
+
+AMOUNT 3
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-POWDER
+
+UNIT Kilogram
+
+AMOUNT 5
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR
+
+RECIPE GREAT-GEAR ANCIENT-POWDER
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME IRON-HULL
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-BODY
+
+RECIPE IRON-HULL ANCIENT-GEAR
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME FORTIFIED-IRON-ROD
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-CLAW
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-ARM
+
+RECIPE FORTIFIED-IRON-ROD ANCIENT-CLAW
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GATLING-ARM
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ARMED-ANCIENT-GATLING-ARM
+
+RECIPE ANCIENT-GATLING-ARM GUN-POWDER
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-ARM-COLLECTION
+
+RECIPE ARMED-ANCIENT-GATLING-ARM ANCIENT-GEAR-ARM
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-UPPERBODY
+
+RECIPE ANCIENT-GEAR-BODY ANCIENT-GEAR-ARM-COLLECTION
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-LOWERBODY
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-FRAMEWORK
+
+RECIPE ANCIENT-GEAR-UPPERBODY ANCIENT-GEAR-LOWERBODY
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-CORE
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME STRANGE-CONTRAPTION
+
+RECIPE GEAR-BOX BROKEN-CLOCK
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME GEAR-BOX
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME BROKEN-CLOCK
+
+AMOUNT 1
+
+POINTS 0
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-HEART
+
+RECIPE ANCIENT-CORE STRANGE-CONTRAPTION
+
+AMOUNT 0
+
+POINTS 10
+
+$$--END--ITEM--$$
+///////////////////////////////////////
+
+///////////////////////////////////////
+$$--NEW--ITEM--$$
+
+NAME ANCIENT-GEAR-GOLEM
+
+RECIPE ANCIENT-HEART ANCIENT-GEAR-FRAMEWORK
+
+AMOUNT 0
+
+POINTS 100
+
+$$--END--ITEM--$$
+///////////////////////////////////////
