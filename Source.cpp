@@ -1,4 +1,4 @@
-//5COSC001W - CW - Joseph Calabro
+//Code by Joseph Calabro
 
 #include <iostream>
 #include <cstdio>
